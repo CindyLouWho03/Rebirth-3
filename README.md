@@ -25,7 +25,7 @@ Below you will find anything you need to know about the game. If you want to dow
 Download from [CurseForge](https://minecraft.curseforge.com/projects/rebirth-3) or the Twitch Client
 
 ### ⚙️ Requirements
-You optionally need this software installed.
+You NEED this software installed.
   - java (1.8.0)
   - curseforge compatible launcher
 
