@@ -1,6 +1,6 @@
 # Rebirth 3
 
-[![love](https://forthebadge.com/images/badges/built-with-love.svg) [![git](https://forthebadge.com/images/badges/uses-git.svg) [![twitch](https://image.ibb.co/k860ep/madewithtwitch.png) [![mc](https://image.ibb.co/g2jWkU/mc.png)
+[![love](https://forthebadge.com/images/badges/built-with-love.svg)[![git](https://forthebadge.com/images/badges/uses-git.svg)[![twitch](https://image.ibb.co/k860ep/madewithtwitch.png)[![mc](https://image.ibb.co/g2jWkU/mc.png)
 
 
 This modpack is inspired by 2 different modpacks. It takes the Hardcoreness of Crash Landings, and it take the survival aspect of Regrowth and they had a child called Rebirth 3. This modpack is a 1.12.2 modpack based around surviving in a wasteland because your ship crashes on a deserted planet and you have to help rebuild, to get materials to fly home.
