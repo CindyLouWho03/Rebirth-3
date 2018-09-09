@@ -1,6 +1,4 @@
 
 \.curseclient
-
-mods/
-
+*.jar
 dirhtml\.lnk
