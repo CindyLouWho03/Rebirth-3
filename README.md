@@ -8,6 +8,11 @@ This modpack is inspired by 2 different modpacks. It takes the Hardcoreness of C
 ## 🚀 Getting Started
 Below you will find anything you need to know about the game. If you want to download a build you can do it from the releases tab.
 
+## 📇 Modlist
+
+- [Release](https://minecraft.curseforge.com/projects/rebirth-3/relations/dependencies)
+- [In Progress](https://crankysupertoon01.github.io/Rebirth-3/mods/index.html)
+
 ## 🎨 Features
 
   - Sync Shells
