@@ -1,0 +1,13 @@
+{
+  "ore:treeLeaves": [
+    {
+      "stack": {
+        "name": "survivalist:plant_fibres",
+        "amount": 1,
+        "meta": 0
+      },
+      "chance": 0.1,
+      "fortuneChance": 0.0
+    }
+  ]
+}

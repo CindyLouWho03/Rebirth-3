@@ -1,0 +1,27 @@
+{
+  "rules": [
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "astralsorcery:blockcustomore:1"
+          ]
+        }
+      },
+      "replaceStrategy": "REPLACE_ALL_IF_SELECTED",
+      "drops": [
+        {
+          "item": {
+            "items": [
+              "rebirth3contentmod:starmetalshard:0"
+            ],
+            "quantity": {
+              "min": 2,
+              "max": 2
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

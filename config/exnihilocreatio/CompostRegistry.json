@@ -1,0 +1,7 @@
+{
+  "survivalist:plant_fibres": {
+    "value": 0.125,
+    "compostBlock": "minecraft:dirt:0",
+    "color": "ff4242"
+  }
+}
