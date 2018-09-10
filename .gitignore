@@ -2,3 +2,15 @@
 \.curseclient
 *.jar
 dirhtml\.lnk
+
+reports/
+
+mods/memory_repo/
+
+correlated/
+
+\.mixin\.out/
+
+BotaniaVars\.dat
+
+options\.txt
