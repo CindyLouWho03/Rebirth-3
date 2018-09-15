@@ -1,15 +1,25 @@
 {
     "images":
     {
-		"modpack":
-		{
-            "image" : "mainmenu:modpack.png",
-            "posX" : -125,
-            "posY" : -155,
-            "width" : 250,
-            "height" : 35,
-            "alignment" : "center"
-		}
+        "title":
+        {
+            "image" : "custommainmenu:textures/gui/minecraft.png",
+            "posX" : -137,
+            "posY" : 30,
+            "width" : 512,
+            "height" : 512,
+            "alignment" : "top_center"
+        },
+        
+        "edition":
+        {
+            "image" : "custommainmenu:textures/gui/edition.png",
+            "posX" : -49,
+            "posY" : 67,
+            "width" : 128,
+            "height" : 16,
+            "alignment" : "top_center"
+        }
     },
     
     "buttons":
@@ -18,248 +28,145 @@
         {
             "text" : "menu.singleplayer",
             "posX" : -100,
-            "posY" : 0,
-            "width" : 98,
+            "posY" : 48,
+            "width" : 200,
             "height" : 20,
-			"alignment" : "center",
-			"texture" : "mainmenu:shortbutton.png",
             "action" : 
             {
                 "type" : "openGui",
                 "gui" : "singleplayer"
             }
-        },        
+        },
+        
         "multiplayer":
         {
             "text" : "menu.multiplayer",
-            "posX" : 2,
-            "posY" : 0,
-            "width" : 98,
+            "posX" : -100,
+            "posY" : 72,
+            "width" : 200,
             "height" : 20,
-			"alignment" : "center",
-			"texture" : "mainmenu:shortbutton.png",
             "action" : 
             {
                 "type" : "openGui",
                 "gui" : "multiplayer"
             }
-        },        
+        },
+        
         "mods":
         {
-            "text" : "Mods",
-            "posX" : 2,
-            "posY" : 25,
-            "width" : 98,
+            "text" : "fml.menu.mods",
+            "posX" : -100,
+            "posY" : 96,
+            "width" : 200,
             "height" : 20,
-			"alignment" : "center",
-			"texture" : "mainmenu:shortbutton.png",
             "action" : 
             {
                 "type" : "openGui",
                 "gui" : "mods"
             }
-        },		
-        "bugreports":
-        {
-            "text" : "",
-            "posX" : 105,
-            "posY" : 25,
-            "width" : 20,
-            "height" : 20,
-			"alignment" : "center",
-			"tooltip": "Bug Reports",
-			"texture" : "mainmenu:web.png",
-			"imageWidth": "40",
-			"imageHeight": "40",
-            "action" : 
-            {
-                "type" : "openLink",
-				"link" : "https://minecraft.curseforge.com/projects/rebirth-3/issues"
-            }
         },
-        "changelog":
-        {
-            "text" : "Changelog",
-            "posX" : -100,
-            "posY" : 75,
-            "width" : 98,
-            "height" : 20,
-			"alignment" : "center",
-			"texture" : "mainmenu:shortbutton.png",
-            "action" : 
-            {
-                "type" : "openLink",
-				"link" : "https://minecraft.curseforge.com/projects/rebirth-3/files/"
-            }
-        },		
-        "Website":
-        {
-            "text" : "Website",
-            "posX" : 2,
-            "posY" : 50,
-            "width" : 98,
-            "height" : 20,
-			"alignment" : "center",
-			"texture" : "mainmenu:shortbutton.png",
-            "action" : 
-            {
-                "type" : "openLink",
-				"link" : "https://minecraft.curseforge.com/projects/rebirth-3"
-            }
-        },		
-		"Forums":
-        {
-            "text" : "Forums",
-            "posX" : -100,
-            "posY" : 50,
-            "width" : 98,
-            "height" : 20,
-			"alignment" : "center",
-			"texture" : "mainmenu:shortbutton.png",
-            "action" : 
-            {
-                "type" : "openLink",
-				"link" : "http://NotReadyYet.nothere/"
-            }
-        },		
-        "Discord":
-        {
-            "text" : "Forge Support",
-            "posX" : 2,
-            "posY" : 75,
-            "width" : 98,
-            "height" : 20,
-			"alignment" : "center",
-			"texture" : "mainmenu:shortbutton.png",
-            "action" : 
-            {
-                "type" : "openLink",
-				"link" : "https://discord.gg/9dtUrCE"
-            }
-        },		
+            
         "options":
         {
             "text" : "menu.options",
             "posX" : -100,
-            "posY" : 25,
+            "posY" : 132,
             "width" : 98,
             "height" : 20,
-			"alignment" : "center",
-			"texture" : "mainmenu:shortbutton.png",
             "action" : 
             {
                 "type" : "openGui",
                 "gui" : "options"
             }
-        },        
+        },
+        
         "quit":
         {
             "text" : "menu.quit",
-            "posX" : -100,
-            "posY" : 100,
-            "width" : 200,
+            "posX" : 2,
+            "posY" : 132,
+            "width" : 98,
             "height" : 20,
-			"alignment" : "center",
-			"texture" : "mainmenu:longbutton.png",
             "action" : 
             {
                 "type" : "quit"
-			}
-		}
+            }
+        },
+        
+        "language":
+        {
+            "text" : "",
+            "posX" : -124,
+            "posY" : 132,
+            "width" : 20,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        },
+        
+        "refresh":
+        {
+            "text" : "",
+            "posX" : -154,
+            "posY" : 132,
+            "width" : 20,
+            "height" : 20,
+            "texture" : "custommainmenu:textures/gui/buttons.png",
+            "action" : 
+            {
+                "type" : "refresh"
+            }
+        }
     },
-      
+    
     "labels":
     {
         "mojang":
         {
-            "text" : "Â©2018 CrankySupertoon",
-            "posX" : -65,
-            "posY" : -7,
-			"fontSize" : .6,
+            "text" : "Copyright Mojang AB. Do not distribute!",
+            "hoverText" : "§nCopyright Mojang AB. Do not distribute!",
+            "posX" : -197,
+            "posY" : -10,
             "color" : -1,
-			"hoverColor" : -1,
-            "alignment" : "bottom_right"
+            "alignment" : "bottom_right",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "credits"
+            }
         },
-		"minecraft":{
-			"text" : "Minecraft 1.12.2",
-            "posX" : 3,
-            "posY" : -25,
-			"fontSize" : .6,
+        
+        "fml":
+        {
+            "text" : "",
+            "posX" : 2,
+            "posY" : -40,
             "color" : -1,
-			"hoverColor" : -1,
             "alignment" : "bottom_left"
-		},
-		"modsloaded":{
-			"text" : "#modsloaded# Mods Loaded",
-            "posX" : 3,
-            "posY" : -13,
-			"fontSize" : .6,
-            "color" : -1,
-			"hoverColor" : -1,
-            "alignment" : "bottom_left"
-		},
-		"modsactive":{
-			"text" : "#modsactive# Mods Active",
-            "posX" : 3,
-            "posY" : -7,
-			"fontSize" : .6,
-            "color" : -1,
-			"hoverColor" : -1,
-            "alignment" : "bottom_left"
-		},
-		"forge":{
-			"text" : "Forge #forgeversion#",
-            "posX" : 3,
-            "posY" : -19,
-			"fontSize" : .6,
-            "color" : -1,
-			"hoverColor" : -1,
-            "alignment" : "bottom_left"
-		},
-		"modpack":{
-			"text" : "Rebirth 3",
-            "posX" : 3,
-            "posY" : -31,
-			"fontSize" : .6,
-            "color" : -1,
-			"hoverColor" : -1,
-            "alignment" : "bottom_left"
-		},
-		"newsLine1":{
-			"text" : "",
-            "posX" : -140,
-            "posY" : 100,
-			"fontSize" : 1,
-			"color" : 13048410,
-			"hoverColor" : 13048410,
-            "alignment" : "top_center"
-		},
-		"newsLine2":{
-			"text" : "",
-            "posX" : -120,
-            "posY" : 110,
-			"fontSize" : 1,
-            "color" : 13048410,
-			"hoverColor" : 13048410,
-            "alignment" : "top_center"
-		},
-		"newsLine3":{
-			"text" : "Welcome, #username#",
-            "posX" : -140,
-            "posY" : 33,
-			"fontSize" : .8,
-            "color" : -1,
-			"hoverColor" : 13158400,
-            "alignment" : "top_right"
-		}
+        }
     },
     
     "other":
     {
-		"background":
-		{
-			"image" : "mainmenu:background.png",
-			"mode" : "fill"
-		}
+        "splash-text":
+        {
+            "posX" : 90,
+            "posY" : 70,
+            "color" : -256,
+            "alignment" : "top_center",
+            "texts" : "file:minecraft:texts/splashes.txt"
+        },
+        
+        "panorama":
+        {
+            "images" : "minecraft:textures/gui/title/background/panorama_%c.png",
+            "animate" : true,
+            "animationSpeed" : 1,
+            "blur" : true,
+            "gradient" : true
+        }
     }
 }

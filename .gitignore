@@ -14,3 +14,21 @@ correlated/
 BotaniaVars\.dat
 
 options\.txt
+
+astralsorcery/
+
+backups/
+
+crash-reports/
+
+logs/
+
+questpacks/
+
+woot/
+
+knownkeys\.txt
+
+usercache\.json
+
+usernamecache\.json

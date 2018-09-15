@@ -91,8 +91,6 @@ recipes.addShaped(<teckle:filter>, [[<ore:cobblestone>, <ore:cobblestone>, <ore:
 recipes.addShaped(<teckle:sortingmachine>, [[<minecraft:iron_ingot>, <minecraft:dye:4>, <minecraft:iron_ingot>],[<teckle:ingot:1>, <teckle:filter>, <teckle:ingot:1>], [<minecraft:iron_ingot>, <minecraft:redstone>, <minecraft:iron_ingot>]]);
 recipes.addShaped(<industrialforegoing:range_addon:11>, [[<draconicevolution:draconium_ingot>, <industrialforegoing:plastic>, <draconicevolution:draconium_ingot>],[<draconicevolution:draconium_ingot>, <ore:paneGlass>, <draconicevolution:draconium_ingot>], [<draconicevolution:draconium_ingot>, <industrialforegoing:plastic>, <draconicevolution:draconium_ingot>]]);
 recipes.addShaped(<industrialforegoing:range_addon:10>, [[<minecraft:emerald>, <industrialforegoing:plastic>, <minecraft:emerald>],[<minecraft:emerald>, <ore:paneGlassColorless>, <minecraft:emerald>], [<minecraft:emerald>, <industrialforegoing:plastic>, <minecraft:emerald>]]);
-recipes.addShaped(<rebirth3contentmod:starmetalchunk>, [[null, null, null],[null, <rebirth3contentmod:starmetalshard>, <rebirth3contentmod:starmetalshard>], [null, <rebirth3contentmod:starmetalshard>, <rebirth3contentmod:starmetalshard>]]);
-recipes.addShaped(<rebirth3contentmod:osmiumchunk>, [[null, null, null],[null, <rebirth3contentmod:osmiumshard>, <rebirth3contentmod:osmiumshard>], [null, <rebirth3contentmod:osmiumshard>, <rebirth3contentmod:osmiumshard>]]);
 furnace.addRecipe(<mekanism:ingot:1>, <rebirth3contentmod:osmiumchunk>, 0.0);
 furnace.addRecipe(<astralsorcery:itemcraftingcomponent:1>, <rebirth3contentmod:starmetalchunk>, 0.0);
 furnace.remove(<astralsorcery:itemcraftingcomponent:1>, <astralsorcery:blockcustomore:1>);
@@ -249,3 +247,6 @@ recipes.addShaped(<skyresources:techitemcomponent:2>, [[<minecraft:ice>, <minecr
 recipes.addShaped(<magneticraft:ingots:5>, [[<ore:dyeBlack>, <ore:dyeBlack>, <ore:dyeBlack>],[<ore:dyeBlack>, <ore:ingotOsmium>, <ore:dyeBlack>], [<ore:dyeBlack>, <ore:dyeBlack>, <ore:dyeBlack>]]);
 recipes.addShaped(<integrateddynamics:menril_sapling>, [[<minecraft:dye:4>, <minecraft:dye:4>, <minecraft:dye:4>],[<minecraft:dye:4>, <ore:treeSapling>, <minecraft:dye:4>], [<minecraft:dye:4>, <minecraft:dye:4>, <minecraft:dye:4>]]);
 recipes.remove(<actuallyadditions:block_giant_chest>);
+recipes.addShapeless(<rebirth3contentmod:osmiumchunk>, [<rebirth3contentmod:osmiumshard>,<rebirth3contentmod:osmiumshard>,<rebirth3contentmod:osmiumshard>,<rebirth3contentmod:osmiumshard>]);
+recipes.addShapeless(<rebirth3contentmod:starmetalchunk>, [<rebirth3contentmod:starmetalshard>,<rebirth3contentmod:starmetalshard>,<rebirth3contentmod:starmetalshard>,<rebirth3contentmod:starmetalshard>]);
+recipes.addShapeless(<survivalist:plant_fibres>, [<ezwastelands:ezwastelandblock>,<ezwastelands:ezwastelandblock>,<ezwastelands:ezwastelandblock>,<ezwastelands:ezwastelandblock>]);

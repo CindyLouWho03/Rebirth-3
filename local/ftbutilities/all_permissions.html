@@ -97,6 +97,17 @@ false
 <p>Permission for the block tile.block_attractor_obelisk of Ender IO to attract entities. Note: The GameProfile will be for the block owner, the EntityPlayer in the context will be the fake player.</p>
 </td></tr>
 <tr>
+<td><code>enderio.creative_spawner.edit</code></td>
+<td><code>bool</code></td>
+<td class='false'><code>false</code></td>
+<td class='true'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to edit the creative spawner's settings.</p>
+</td></tr>
+<tr>
 <td><code>enderio.farm.tile.block_farm_station</code></td>
 <td><code>bool</code></td>
 <td class='true' colspan='2'><code>true</code></td>
@@ -195,6 +206,16 @@ true
 false 
 '>
 <p>Permission to open the GUI(s) of Ender IO's block_crafter</p>
+</td></tr>
+<tr>
+<td><code>enderio.gui.block_creative_spawner</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to open the GUI(s) of Ender IO's block_creative_spawner</p>
 </td></tr>
 <tr>
 <td><code>enderio.gui.block_dark_steel_anvil</code></td>
@@ -918,6 +939,17 @@ false
 <p>Permission to wrench-break the block block_crafter of Ender IO</p>
 </td></tr>
 <tr>
+<td><code>enderio.wrench.break.block_creative_spawner</code></td>
+<td><code>bool</code></td>
+<td class='false'><code>false</code></td>
+<td class='true'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to wrench-break the block block_creative_spawner of Ender IO</p>
+</td></tr>
+<tr>
 <td><code>enderio.wrench.break.block_detector_block</code></td>
 <td><code>bool</code></td>
 <td class='true' colspan='2'><code>true</code></td>
@@ -1586,6 +1618,17 @@ true
 false 
 '>
 <p>Permission to set IO mode by wrench-clicking the block block_crafter of Ender IO</p>
+</td></tr>
+<tr>
+<td><code>enderio.wrench.iomode.block_creative_spawner</code></td>
+<td><code>bool</code></td>
+<td class='false'><code>false</code></td>
+<td class='true'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Permission to set IO mode by wrench-clicking the block block_creative_spawner of Ender IO</p>
 </td></tr>
 <tr>
 <td><code>enderio.wrench.iomode.block_detector_block</code></td>
@@ -2342,6 +2385,15 @@ false
 <p>Permission for blocks that players can right-click within claimed chunks</p>
 </td></tr>
 <tr>
+<td><code>ftbutilities.claims.block.interact.advancedrocketry.airlock_door</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+</td></tr>
+<tr>
 <td><code>ftbutilities.claims.block.interact.enderio.block_dark_steel_anvil</code></td>
 <td><code>bool</code></td>
 <td class='true' colspan='2'><code>true</code></td>
@@ -2981,6 +3033,15 @@ false
 '>
 </td></tr>
 <tr>
+<td><code>ftbutilities.claims.block.interact.fp.composite_door</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+</td></tr>
+<tr>
 <td><code>ftbutilities.claims.block.interact.ic2.reinforced_door</code></td>
 <td><code>bool</code></td>
 <td class='true' colspan='2'><code>true</code></td>
@@ -3458,10 +3519,12 @@ false
 </td></tr>
 </table><br><table><tr><th>Available command nodes</th><th>Usage</th></tr>
 <tr><td><code>command.additionalpipes.additionalpipes</code></td><td class='error' title='Invalid usage language key!'>Usage: /additionalpipes teleport &lt;items|fluids|power&gt;</td></tr>
+<tr><td><code>command.advancedrocketry.advancedrocketry</code></td><td class='error' title='Invalid usage language key!'>advancedRocketry help</td></tr>
 <tr><td><code>command.advancement</code></td><td>/advancement &lt;grant|revoke|test&gt; &lt;player&gt;</td></tr>
 <tr><td><code>command.aroma1997core.aroma1997</code></td><td class='error' title='Invalid usage language key!'>/aroma1997 reloadclient<br>/aroma1997 setupDeathCounter<br>/aroma1997 setupDeathCounter &lt;location&gt;<br>/aroma1997 setupDeathCounter &lt;location&gt; &lt;name&gt;<br>/aroma1997 dimension<br>/aroma1997 tp &lt;dimension&gt;<br>/aroma1997 tp &lt;x&gt; &lt;y&gt; &lt;z&gt;<br>/aroma1997 tp &lt;x&gt; &lt;y&gt; &lt;z&gt; &lt;dimension&gt;<br>/aroma1997 tabcomplete &lt;command&gt;<br>/aroma1997 openGui<br>/aroma1997 debugCrash</td></tr>
 <tr><td><code>command.aroma1997core.sleep</code></td><td class='error' title='Invalid usage language key!'>/sleep</td></tr>
 <tr><td><code>command.astralsorcery.astralsorcery</code></td><td class='error' title='Invalid usage language key!'>/astralsorcery &lt;action&gt; [player] [arguments...]</td></tr>
+<tr><td><code>command.backups.restore</code></td><td>/restore &lt;x1&gt; &lt;y1&gt; &lt;z1&gt; &lt;x2&gt; &lt;y2&gt; &lt;z2&gt; &lt;backup&gt;</td></tr>
 <tr><td><code>command.baubles.baubles</code></td><td class='error' title='Invalid usage language key!'>/baubles &lt;action&gt; [&lt;player&gt; [&lt;params&gt;]]</td></tr>
 <tr><td><code>command.bdlib.dumpregistry</code></td><td>dumpregistry</td></tr>
 <tr><td><code>command.bdlib.oredistribution</code></td><td>/oredistribution &lt;radius&gt; [&lt;min height&gt;] [&lt;max height&gt;] [--file]</td></tr>
@@ -3500,7 +3563,6 @@ false
 <tr><td><code>command.difficulty</code></td><td>/difficulty &lt;new difficulty&gt;</td></tr>
 <tr><td><code>command.draconicevolution.de_upgrade</code></td><td class='error' title='Invalid usage language key!'>/de_upgrade</td></tr>
 <tr><td><code>command.dropt.dropt</code></td><td class='error' title='Invalid usage language key!'>dropt &lt;reload&gt;</td></tr>
-<tr><td><code>command.dsurround.ds</code></td><td class='error' title='Invalid usage language key!'>§6/ds help§9 -- Help for Dynamic Surroundings</td></tr>
 <tr><td><code>command.effect</code></td><td>/effect &lt;player&gt; &lt;effect&gt; [seconds] [amplifier] [hideParticles]<br>/effect &lt;player&gt; clear</td></tr>
 <tr><td><code>command.enchant</code></td><td>/enchant &lt;player&gt; &lt;enchantment ID&gt; [level]</td></tr>
 <tr><td><code>command.enchiridion.enchiridion</code></td><td class='error' title='Invalid usage language key!'>/enchiridion refresh</td></tr>
@@ -3536,6 +3598,9 @@ false
 <tr><td><code>command.forge.track.reset</code></td><td>Use /forge track reset &lt;te|entity&gt;</td></tr>
 <tr><td><code>command.forge.track.start</code></td><td>Use /forge track start &lt;te|entity&gt; &lt;duration&gt;</td></tr>
 <tr><td><code>command.forge.track.te</code></td><td>Use /forge track te</td></tr>
+<tr><td><code>command.fp./dimension</code></td><td class='error' title='Invalid usage language key!'>//dimension - return information aboud this Dimenson<br>//dimension &lt;id&gt; [target] - teleports the target to the dimension</td></tr>
+<tr><td><code>command.fp.fp</code></td><td>/fp &lt;research&gt; ...</td></tr>
+<tr><td><code>command.fp.fpdebug</code></td><td class='error' title='Invalid usage language key!'>fpdebug &lt;research&gt;</td></tr>
 <tr><td><code>command.ftblib.my_settings</code></td><td>/my_settings &lt;config id&gt; [value]</td></tr>
 <tr><td><code>command.ftblib.reload</code></td><td>/reload [*|domain:*|domain:id]</td></tr>
 <tr><td><code>command.ftblib.team.create</code></td><td>/team create &lt;id&gt; [color]</td></tr>
@@ -3549,6 +3614,10 @@ false
 <tr><td><code>command.ftblib.team.settings</code></td><td>/team settings &lt;config id&gt; [value]</td></tr>
 <tr><td><code>command.ftblib.team.status</code></td><td>/team status &lt;player&gt; [set_status]</td></tr>
 <tr><td><code>command.ftblib.team.transfer_ownership</code></td><td>/team transfer_ownership &lt;player&gt;</td></tr>
+<tr><td><code>command.ftbquests.ftbquests.complete_instantly</code></td><td>/ftbquests complete_instantly &lt;object ID&gt;</td></tr>
+<tr><td><code>command.ftbquests.ftbquests.editing_mode</code></td><td>/ftbquests editing_mode [true|false|toggle] [player]</td></tr>
+<tr><td><code>command.ftbquests.ftbquests.reset_progress</code></td><td>/ftbquests reset_progress &lt;team&gt; [object ID]</td></tr>
+<tr><td><code>command.ftbquests.ftbquests.set_variable</code></td><td>/ftbquests set_variable &lt;team&gt; &lt;variable ID&gt; &lt;value&gt;</td></tr>
 <tr><td><code>command.ftbutilities.back</code></td><td>/back</td></tr>
 <tr><td><code>command.ftbutilities.backup.help</code></td><td>/help [page|command name]</td></tr>
 <tr><td><code>command.ftbutilities.backup.size</code></td><td>commands.backup.size.usage</td></tr>
@@ -3659,6 +3728,7 @@ om_config_s default &lt;modid&gt; &lt;category&gt; &lt;name&gt; &lt;value&gt;...
 <tr><td><code>command.pneumaticcraft.getglobalvariable</code></td><td class='error' title='Invalid usage language key!'>getGlobalVariable &lt;variableName&gt;</td></tr>
 <tr><td><code>command.pneumaticcraft.setglobalvariable</code></td><td class='error' title='Invalid usage language key!'>setGlobalVariable &lt;variableName&gt; &lt;x&gt; &lt;y&gt; &lt;z&gt;</td></tr>
 <tr><td><code>command.publish</code></td><td>/publish</td></tr>
+<tr><td><code>command.questutils.qu</code></td><td class='error' title='Invalid usage language key!'>qu &lt;command&gt; [ &lt;args&gt; ]</td></tr>
 <tr><td><code>command.randomthings.rt</code></td><td class='error' title='Invalid usage language key!'>/rt</td></tr>
 <tr><td><code>command.reborncore.rc_dumpmods</code></td><td>rc_dumpmods</td></tr>
 <tr><td><code>command.reborncore.rc_listrecipes</code></td><td>rc_listRecipes</td></tr>
