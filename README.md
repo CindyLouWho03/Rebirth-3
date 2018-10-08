@@ -15,7 +15,7 @@ Below you will find anything you need to know about the game. If you want to dow
 
 ## 🎨 Features
 
-  - Sync Shells
+  - Hardcore Modpack
   - Better Questing Quest Book
   - Meteroites
   - and more
